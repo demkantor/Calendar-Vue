@@ -3,10 +3,10 @@
     <v-col>
       <v-sheet height="64">
         <v-toolbar flat color="white">
-          <v-btn color="primary" dark @click.stop="dialog = true">
+          <v-btn color="primary" dark @click.stop="dialog = true" class="mr-4">
             New Event
           </v-btn>
-          <v-btn outlined class="mr-4" @click="setToday">
+          <v-btn raised class="mr-4" @click="setToday">
             Today
           </v-btn>
           <v-btn fab text small @click="prev">
